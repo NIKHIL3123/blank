@@ -1,0 +1,347 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  height: 600px;
+  position: relative;
+}
+
+.heroimg {
+  background-image: url("/src/coffee6.jpg");
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* filter: blur(5px);
+  -webkit-filter: blur(5px); */
+}
+
+.herotext {
+  color: black;
+  font-weight: bolder;
+  position: absolute;
+  font-size: xx-large;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  font-family: cursive;
+}
+.MuiTabs-flexContainer {
+  margin-left: 14%;
+}
+
+.belowstepper {
+  width: 100%;
+  height: 500px;
+}
+
+.btn2 {
+  border: none;
+  outline: none;
+  /* padding: 6px 6px; */
+
+  /* margin-right: 10%; */
+}
+.btn1 {
+  border: none;
+  outline: none;
+  /* padding: 6px 6px; */
+  /* cursor: pointer; */
+  margin-right: 2%;
+}
+
+.btn2:hover {
+  background-color: #666;
+}
+.btn1:hover {
+  background-color: #666;
+}
+.buttondiv {
+  width: 100%;
+  height: 40px;
+  /* margin-right: 10%; */
+}
+.buttons {
+  width: 20%;
+  margin-left: 70%;
+}
+
+.hotcoffee {
+  height: 20%;
+  width: 20%;
+  display: flex;
+  /* background-color: aliceblue; */
+  box-sizing: border-box;
+  border-style: outset;
+  border-radius: 3px;
+  /* margin: 20px; */
+  margin-left: 16%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.coldcoffee {
+  height: 20%;
+  width: 20%;
+  display: flex;
+  /* background-color: aliceblue; */
+  box-sizing: border-box;
+  border-style: outset;
+  border-radius: 3px;
+  /* margin: 20px; */
+  cursor: pointer;
+}
+
+.samecoffee2 {
+  height: 50%;
+  width: 12%;
+  box-sizing: border-box;
+  border-style: outset;
+  /* border-radius: 8px; */
+  margin-right: 10px;
+  cursor: pointer;
+}
+.samecoffee1 {
+  height: 50%;
+  width: 12%;
+  box-sizing: border-box;
+  border-style: outset;
+  margin-left: 16%;
+  margin-right: 17px;
+  cursor: pointer;
+}
+.step0div {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  /* margin-left: 14%; */
+  /* position: relative; */
+  /* background: #666; */
+  /* justify-content: center; */
+}
+
+.step2div {
+  /* margin-top: 10px; */
+  width: 100%;
+  height: 600px;
+  text-align: left;
+}
+
+.addon {
+  width: 7%;
+  height: 30%;
+  margin-left: 22%;
+  cursor: pointer;
+}
+
+.spoon {
+  width: 20%;
+  height: 80%;
+  margin-left: 10%;
+
+  /* display: flex; */
+}
+
+.negativeon {
+  width: 7%;
+  height: 30%;
+  margin-left: 10%;
+  cursor: pointer;
+
+  /* display: flex; */
+}
+
+.sugarimg {
+  width: 100%;
+  height: 100%;
+}
+
+.cold1grid {
+  height: 60%;
+  width: 20%;
+  box-sizing: border-box;
+  border-style: outset;
+  margin-right: 10px;
+  margin-left: 14%;
+  cursor: pointer;
+}
+.cold2grid {
+  height: 60%;
+  width: 20%;
+  box-sizing: border-box;
+  border-style: outset;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.cold3grid {
+  height: 60%;
+  width: 20%;
+  box-sizing: border-box;
+  border-style: outset;
+  margin-right: 14%;
+  cursor: pointer;
+}
+
+.hot1grid {
+  height: 60%;
+  width: 20%;
+  box-sizing: border-box;
+  border-style: outset;
+  margin-right: 10px;
+  margin-left: 14%;
+  cursor: pointer;
+}
+
+.hot2grid {
+  height: 60%;
+  width: 20%;
+  box-sizing: border-box;
+  border-style: outset;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.hot3grid {
+  height: 60%;
+  width: 20%;
+  box-sizing: border-box;
+  border-style: outset;
+  margin-right: 14%;
+  cursor: pointer;
+}
+.coldgridimg {
+  width: 100%;
+  height: 120px;
+}
+.hotgridimg {
+  width: 100%;
+  height: 120px;
+}
+
+.hot1list {
+  height: 22%;
+  width: 20%;
+  display: flex;
+  /* background-color: aliceblue; */
+  box-sizing: border-box;
+  border-style: outset;
+  border-radius: 3px;
+  /* margin: 20px; */
+  margin-right: 10px;
+  margin-left: 15%;
+  cursor: pointer;
+}
+.hot2list {
+  height: 22%;
+  width: 20%;
+  display: flex;
+  /* background-color: aliceblue; */
+  box-sizing: border-box;
+  border-style: outset;
+  border-radius: 3px;
+  /* margin: 20px; */
+  margin-right: 10px;
+  cursor: pointer;
+}
+.hot3list {
+  height: 22%;
+  width: 20%;
+  display: flex;
+  /* background-color: aliceblue; */
+  box-sizing: border-box;
+  border-style: outset;
+  border-radius: 3px;
+  /* margin: 20px; */
+  margin-right: 10px;
+  cursor: pointer;
+}
+.hotlistimg {
+  width: 20%;
+  height: 100%;
+}
+
+.sameimg {
+  width: 100%;
+  height: 70%;
+}
+
+.hotimg {
+  width: 20%;
+  height: 100%;
+}
+
+.coldimg {
+  width: 20%;
+  height: 100%;
+}
+.user {
+  width: 100%;
+  height: 650px;
+  margin-top: -10px;
+  background-image: url("./coffeefront.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.lastpage {
+  width: 100%;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  /* text-align: left; */
+}
+.coffeeshoplogo {
+  width: 27%;
+  height: 100%;
+}
+.userinner1 {
+  width: 100%;
+  height: 47%;
+  display: flex;
+}
+
+.shopname {
+  width: 35%;
+  margin-left: 31%;
+  height: 48%;
+  background-color: white;
+  border-radius: 10px;
+}
